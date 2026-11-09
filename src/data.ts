@@ -1,3 +1,11 @@
+// Independent Ourdo portfolio demonstration. No operational or client data is included.
+export const demo = {
+  product: 'Forest Impact MIS',
+  organization: 'Green Forest',
+  creator: 'Ourdo Indonesia',
+  disclaimer: 'Independent Ourdo demonstration for fictional Green Forest. All figures, people, locations, documents, and workflow outcomes are illustrative; no backend or live services are connected.'
+} as const;
+
 export const mis = {
   program: { id: 'coastal-resilience', name: 'Coastal Resilience Program', code: 'CRP', period: '2024–2028', status: 'Active', description: 'Strengthening coastal ecosystems and the communities that depend on them across priority landscapes.' },
   project: { id: 'mangrove-restoration', name: 'Mangrove Restoration & Community Resilience', code: 'CRP–01', lead: 'Coastal Programs Team', period: '2025–2027' },
@@ -12,9 +20,9 @@ export const mis = {
     { id: 'households-engaged', name: 'Coastal households engaged', code: 'CRP.O2.02', unit: 'households', baseline: 80, target: 650, achievement: 482, progress: 74.2, status: 'On track', trend: [80, 145, 220, 304, 391, 482], description: 'Households participating in restoration and resilience activities.' }
   ],
   sites: [
-    { id: 'site-a', name: 'Site A', subtitle: 'Coastal Restoration Area', coordinates: '5.181° S, 119.382° E', progress: 78, activities: 4, beneficiaries: 186, evidence: 24, x: 28, y: 49, area: 96, status: 'On track' },
-    { id: 'site-b', name: 'Site B', subtitle: 'Community Mangrove Area', coordinates: '5.226° S, 119.418° E', progress: 68, activities: 3, beneficiaries: 174, evidence: 18, x: 57, y: 29, area: 73, status: 'Needs attention' },
-    { id: 'site-c', name: 'Site C', subtitle: 'Monitoring Zone', coordinates: '5.274° S, 119.461° E', progress: 62, activities: 2, beneficiaries: 122, evidence: 13, x: 72, y: 66, area: 49, status: 'Monitoring' }
+    { id: 'site-a', name: 'Site A', subtitle: 'Coastal Restoration Area', coordinates: 'Illustrative location A', progress: 78, activities: 4, beneficiaries: 186, evidence: 24, x: 28, y: 49, area: 96, status: 'On track' },
+    { id: 'site-b', name: 'Site B', subtitle: 'Community Mangrove Area', coordinates: 'Illustrative location B', progress: 68, activities: 3, beneficiaries: 174, evidence: 18, x: 57, y: 29, area: 73, status: 'Needs attention' },
+    { id: 'site-c', name: 'Site C', subtitle: 'Monitoring Zone', coordinates: 'Illustrative location C', progress: 62, activities: 2, beneficiaries: 122, evidence: 13, x: 72, y: 66, area: 49, status: 'Monitoring' }
   ],
   evidence: [
     { id: 'ev-01', name: 'Field Survey — Site A.pdf', type: 'PDF', date: '18 Aug 2026', size: '2.4 MB', siteId: 'site-a', status: 'Pending Review', icon: 'document' },
