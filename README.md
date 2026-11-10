@@ -1,6 +1,6 @@
 # Forest Impact MIS
 
-**An independent Ourdo Indonesia portfolio demonstration**, built for the fictional organization **Green Forest**. This repository retains its historical GitHub slug for continuity; the application and publicly presented product are named **Forest Impact MIS**.
+**An independent Ourdo Indonesia portfolio demonstration** for a fictional programme scenario. This repository retains its historical GitHub slug for continuity; the application and publicly presented product are named **Forest Impact MIS**.
 
 > Demo only. Every organization shown inside the application, person, program, date, site, indicator, location, document, and measurement is illustrative. This is not an operational monitoring system or an assertion of work delivered to any real organization. No outside organization commissioned, endorsed, or is affiliated with this demonstration.
 
