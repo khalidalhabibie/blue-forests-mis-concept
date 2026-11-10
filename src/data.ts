@@ -1,9 +1,9 @@
 // Independent Ourdo portfolio demonstration. No operational or client data is included.
 export const demo = {
   product: 'Forest Impact MIS',
-  organization: 'Green Forest',
+  organization: 'Demo Organization',
   creator: 'Ourdo Indonesia',
-  disclaimer: 'Independent Ourdo demonstration for fictional Green Forest. All figures, people, locations, documents, and workflow outcomes are illustrative; no backend or live services are connected.'
+  disclaimer: 'Independent Ourdo portfolio demonstration for a fictional programme. All figures, people, locations, documents, and workflow outcomes are illustrative; no backend or live services are connected.'
 } as const;
 
 export const mis = {
